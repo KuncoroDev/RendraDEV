@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:Arial,Sans-Serif;
+}
+.satu {
+  width: 55px;
+  border-radius: 50px;
+}
+
+
+nav {
+  background-color: #222;
+   padding-block: 10px 20px;
+   color: red;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0px 20px;
+ }
+ 
+ nav ul li a {
+   color:white;
+   text-decoration: none;
+   font-size: 15px;
+   padding: 20px 0px;
+ }
+ 
+ nav ul ki a:hover {
+   border-bottom: 3px solid white;
+ }
